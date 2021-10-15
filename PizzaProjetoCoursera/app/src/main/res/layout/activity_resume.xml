@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityResume">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Veja o resumo do seu pedido"
+        android:layout_margin="24sp"
+        android:textSize="22sp" />
+
+
+    <TextView
+        android:id="@+id/sizeresume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textSize="18sp"
+        android:text="Pizza tamanho:" />
+
+    <TextView
+        android:id="@+id/flavorresume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textSize="18sp"
+        android:text="Sabor: " />
+
+    <TextView
+        android:id="@+id/priceresume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textSize="18sp"
+        android:text="Total: " />
+
+    <TextView
+        android:id="@+id/addressresume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textSize="18sp"
+        android:text="Endereço para entrega: " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:text="Seu pedido está sendo preparado" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pizza - Projeto Coursera</string>
+
+    <string-array name="sizesArray">
+        <item>Pizza brotinho - 4  Fatias</item>
+        <item>Pizza média    - 6  Fatias</item>
+        <item>Pizza grande   - 8  Fatias</item>
+        <item>Pizza família  - 16 Fatias</item>
+    </string-array>
+</resources>

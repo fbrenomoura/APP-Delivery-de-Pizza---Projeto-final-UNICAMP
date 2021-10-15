@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FlavorsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha o sabor da pizza"
+        android:textSize="28sp"
+        android:layout_gravity="center" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radiogroupflavor"
+        >
+
+        <RadioButton
+            android:id="@+id/calabresarb"
+            android:text="Calabresa              + R$ 0,00"
+            android:textSize="20dp"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/milhorb"
+            android:text="Milho                      + R$ 1,10"
+            android:textSize="20dp"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/portuguesarb"
+            android:text="Portuguesa           + R$ 2,10"
+            android:textSize="20dp"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/frangorb"
+            android:text="Frango Catupiry   + R$ 4,50"
+            android:textSize="20dp"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/brigadeirorb"
+            android:text="Brigadeiro             + R$ 6,50"
+            android:textSize="20dp"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="30"
+        >
+
+        <Button
+            android:id="@+id/flavorbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirmar"
+            android:layout_gravity="bottom" />
+
+        ></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+
+        >
+            <TextView
+                android:id="@+id/footer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@color/design_default_color_primary"
+                android:text="Total: 0"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
